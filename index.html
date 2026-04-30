@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arthur Mansur Barros - Desenvolvedor Back-End</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css">
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/header.css">
+  <link rel="stylesheet" href="src/css/home.css">
+  <link rel="stylesheet" href="src/css/sobre.css">
+  <link rel="stylesheet" href="src/css/habilidades.css">
+  <link rel="stylesheet" href="src/css/projetos.css">
+  <link rel="stylesheet" href="src/css/footer.css">
+  <link rel="stylesheet" href="src/css/redesign.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <div id="scrollProgress" class="scroll-progress" aria-hidden="true"></div>
+
+  <header class="header" role="banner">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#" class="brand" aria-label="Ir para o topo">
+          <h1 class="logo"><span class="logo-gradient">AM</span></h1>
+        </a>
+
+        <nav class="nav-main centered" role="navigation" aria-label="Navegação principal">
+          <input id="menu-hamburguer" type="checkbox" />
+          <label for="menu-hamburguer" class="menu-toggle" aria-hidden="true">
+            <div class="menu"><span class="hamburguer"></span></div>
+          </label>
+          <ul class="nav-links">
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+            <li><a href="#conquistas">Conquistas</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="home" id="hero">
+      <div class="container">
+        <div class="row full-screen reveal hero-container">
+          <div class="hero-text texto-home left">
+            <p class="greeting">Olá 💪,</p>
+            <h1 class="typewriter"><span>Sou o Arthur Mansur</span></h1>
+            <h2 class="gradient-text">Desenvolvedor Back-End</h2>
+
+            <div class="redes-sociais modern" role="list">
+              <a role="listitem" href="https://www.linkedin.com/in/arthur-mansur-05a617305" class="social-btn" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+              </a>
+              <a role="listitem" href="https://wa.me/5511948334209" class="social-btn" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+              </a>
+              <a role="listitem" href="https://github.com/arthurbarros-hub" class="social-btn" aria-label="GitHub">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+              <a role="listitem" href="https://www.instagram.com/mansuor__1/" class="social-btn" aria-label="Instagram">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-photo img-home right">
+            <div class="img-wrap">
+              <img src="src/imagens/eu.jpeg" alt="foto do perfil" width="380" height="380">
+            </div>
+          </div>
+
+          <div class="scroll-indicator" aria-hidden="true"><span class="chevron"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="conquistas section" id="conquistas">
+      <div class="container">
+        <div class="row">
+          <div class="section-title"><h2>CONQUISTAS</h2></div>
+        </div>
+        <div class="row conquistas-grid">
+          <div class="conquista glass">
+            <img src="src/imagens/formatura.png" alt="Formatura">
+            <div class="conquista-body">
+              <div class="conquista-meta"><span class="icon">🏆</span> <span class="ano">2025</span></div>
+              <h3>Certificado de projeto - Reconhecido pela prefeitura de SP</h3>
+              <p>Após o término e sucesso do robô com IA, recebi o certificado em cerimônia oficial.</p>
+            </div>
+          </div>
+          <div class="conquista glass">
+            <img src="src/imagens/testeFab.png" alt="FabLab Expo">
+            <div class="conquista-body">
+              <div class="conquista-meta"><span class="icon">💻</span> <span class="ano">2025</span></div>
+              <h3>Exposição de Projeto — FabLab Livre SP</h3>
+              <p>Apresentei projeto no FabLab Livre SP, instituição de tecnologia vinculada à Prefeitura de São Paulo.</p>
+            </div>
+          </div>
+          <div class="conquista glass">
+            <img src="src/imagens/fabFuncionando.png" alt="Autoridade">
+            <div class="conquista-body">
+              <div class="conquista-meta"><span class="icon">🎤</span> <span class="ano">2025</span></div>
+              <h3>Projeto reconhecido por gestores públicos</h3>
+              <p>O projeto foi apresentado e reconhecido por gestores e secretários da Prefeitura de São Paulo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sobre-mim section" id="sobre-mim">
+      <div class="container">
+        <div class="row"><div class="section-title"><h2>Sobre mim</h2></div></div>
+        <div class="sobre-container row">
+          <div class="sobre-foto"><div class="img-box inner-shadow"><img src="src/imagens/eu.jpeg" alt="foto do perfil" width="320" height="320"></div></div>
+          <div class="sobre-texto informacoes-sobre-mim glass reveal">
+            <h3>Quem sou</h3>
+            <p><strong>Sou Arthur Mansur — Desenvolvedor Back‑End em formação, com foco em construir APIs e soluções web escaláveis.</strong></p>
+            <p>Atualmente sou Tecnólogo em Análise e Desenvolvimento de Sistemas (previsão de conclusão: 2027) pela UNICSUL e tenho formação técnica em Tecnologia da Informação pelo IFSP (concluído em 2025). Busco sempre aplicar práticas de código limpo, testes e integração contínua nas entregas.</p>
+
+            <div class="sobre-meta">
+              <div class="idiomas"><strong>Idiomas:</strong> Português (Nativo) · Inglês (Básico — leitura técnica)</div>
+              <div class="formacao"><strong>Formação & Certificados:</strong> Tecnólogo A.D.S. (UNICSUL, 2027*) · Técnico em TI (IFSP, 2025). Cursos: Lógica e Algoritmos em Java (Udemy), Java Completo (Spring Boot, JPA), Git & GitHub (Udemy).</div>
+            </div>
+
+            <p>Além das principais tecnologias que trabalho, citadas nas habilidades, também atuo com infraestrutura e hardware (manutenção, redes TCP/IP, Windows/Linux, Arduino/Raspberry Pi) e integrações de IoT com modelos de IA.</p>
+
+            <div class="botoes">
+              <a target="_blank" href="src/arquivos/ATScv (2).pdf" class="btn-cv">Veja meu CV</a>
+              <a href="#projetos" class="btn-project" style="margin-left:12px">Ver projetos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="habilidades section" id="habilidades">
+      <div class="container">
+        <div class="row"><div class="section-title"><h2>Habilidades</h2></div></div>
+        <div class="container-habilidades row">
+          <div class="habilidade" data-level="85%" style="--level:85%"><div class="logo"><i class="devicon devicon-java-plain"></i></div><h3>Java</h3><p>Base sólida com foco em OO e código limpo.</p><div class="skill-bar"><div class="skill-level"></div></div></div>
+          <div class="habilidade" data-level="78%" style="--level:78%"><div class="logo"><i class="devicon devicon-mysql-plain-wordmark"></i></div><h3>SQL</h3><p>Modelagem e consultas eficientes.</p><div class="skill-bar"><div class="skill-level"></div></div></div>
+          <div class="habilidade" data-level="82%" style="--level:82%"><div class="logo"><i class="devicon devicon-nextjs-original"></i></div><h3>Next.js</h3><p>Aplicações React server-side e estáticas.</p><div class="skill-bar"><div class="skill-level"></div></div></div>
+          <div class="habilidade" data-level="80%" style="--level:80%"><div class="logo"><i class="devicon devicon-nodejs-plain"></i></div><h3>Node.js</h3><p>APIs e runtime JavaScript no servidor.</p><div class="skill-bar"><div class="skill-level"></div></div></div>
+          <div class="habilidade" data-level="82%" style="--level:82%"><div class="logo"><i class="devicon devicon-react-original"></i></div><h3>React</h3><p>Construção de UIs reativas e componentes.</p><div class="skill-bar"><div class="skill-level"></div></div></div>
+          <div class="habilidade" data-level="80%" style="--level:80%"><div class="logo"><i class="devicon devicon-typescript-plain"></i></div><h3>TypeScript</h3><p>Tipagem estática e código escalável.</p><div class="skill-bar"><div class="skill-level"></div></div></div>
+          <div class="habilidade" data-level="72%" style="--level:72%"><div class="logo"><i class="devicon devicon-github-original"></i></div><h3>GitHub</h3><p>Versionamento e documentação.</p><div class="skill-bar"><div class="skill-level"></div></div></div>
+          <div class="habilidade" data-level="76%" style="--level:76%"><div class="logo"><i class="devicon devicon-git-plain"></i></div><h3>Git</h3><p>Fluxos e histórico limpo.</p><div class="skill-bar"><div class="skill-level"></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projetos" id="projetos">
+      <div class="container">
+        <div class="row"><div class="section-title"><h2>Meus Projetos</h2></div></div>
+        <div class="container-projetos container projetos-grid">
+          <div class="projeto projeto-card">
+            <a class="projeto-link" href="https://github.com/arthurbarros-hub/747-garage" target="_blank" rel="noopener">
+              <div class="card-thumb thumb-real"><img src="src/imagens/747inicio.jpeg" alt="747 Garage - inicio"></div>
+              <div class="card-info project-body"><div class="project-tags"><span class="tag">Next.js</span><span class="tag">Node.js</span><span class="tag">Tailwind CSS</span></div><h3 class="card-titulo gold">747 Garage</h3><p class="card-desc desc">Landing page premium para loja de Mercedes clássicas.</p><span class="card-link">Ver no GitHub →</span></div>
+            </a>
+          </div>
+
+          <div class="projeto projeto-card">
+            <a class="projeto-link" href="https://github.com/arthurbarros-hub/Login-Cadastro" target="_blank" rel="noopener">
+              <div class="card-thumb thumb-real"><img src="src/imagens/telaCadastro.png" alt="Login Glass"></div>
+              <div class="card-info project-body"><div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div><h3 class="card-titulo gold">Sistema de Login Glassmorphism</h3><p class="card-desc desc">Interface de autenticação com efeito glassmorphism.</p><span class="card-link">Ver no GitHub →</span></div>
+            </a>
+          </div>
+
+          <div class="projeto projeto-card">
+            <a class="projeto-link" href="https://dagym.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <div class="card-thumb thumb-real"><img src="src/imagens/dagym.png" alt="Dagym - thumbnail"></div>
+              <div class="card-info"><div class="project-tags"><span class="tag">Next.js</span><span class="tag">Tailwind CSS</span></div><h3 class="card-titulo">Dagym</h3><p class="card-desc">Plataforma para compartilhar treinos e dietas entre atletas e entusiastas.</p><span class="card-link">Ver no site →</span></div>
+            </a>
+          </div>
+
+          <div class="projeto projeto-card">
+            <a class="projeto-link" href="https://github.com/arthurbarros-hub/assistente_baymax" target="_blank" rel="noopener">
+              <div class="thumb-real"><img src="src/imagens/fabFuncionando.png" alt="Assistente Baymax"></div>
+              <div class="card-info"><div class="project-tags"><span class="tag">Python</span><span class="tag">OpenAI</span><span class="tag">IoT</span><span class="tag">Raspberry Pi</span></div><h3 class="card-titulo">Assistente Baymax</h3><p class="card-desc">Integração de IA com hardware usando Raspberry Pi, OpenAI e Streamlit.</p><span class="card-link">Ver no GitHub →</span></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-main">
+        <h2>Me envie uma mensagem!</h2>
+        <div class="redes-sociais">
+          <a href="https://www.linkedin.com/in/arthur-mansur-05a617305" class="outer-shadow" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://wa.me/5511948334209" class="outer-shadow" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://github.com/arthurbarros-hub" class="outer-shadow" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/mansuor__1/" class="outer-shadow" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-sep" aria-hidden="true"></div>
+      <p class="footer-copy">© 2026 Arthur Mansur — Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function(){
+      const progress = document.getElementById('scrollProgress');
+      if(progress){
+        function updateProgress(){
+          const h = document.documentElement;
+          const pct = (h.scrollTop) / (h.scrollHeight - h.clientHeight) * 100 || 0;
+          progress.style.width = pct + '%';
+        }
+        document.addEventListener('scroll', updateProgress, {passive:true});
+        updateProgress();
+      }
+
+      const observer = new IntersectionObserver((entries)=>{
+        entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('in-view'); });
+      },{threshold:0.12});
+      document.querySelectorAll('.reveal, .section').forEach(el=>observer.observe(el));
+    })();
+  </script>
+</body>
+
+</html>
