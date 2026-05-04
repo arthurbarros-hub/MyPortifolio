@@ -214,8 +214,8 @@ body{
 .baymax-thumb .minha-foto{width:80px;height:80px;border-radius:50%;object-fit:cover;object-position:center top;border:2px solid var(--accent-gold);display:block}
 .baymax-thumb .robo{font-size:48px}
 .baymax-thumb .conector{font-size:20px;color:var(--accent-gold);font-weight:700}
-.project-tags{margin-top:12px}
-.tag{display:inline-block;padding:4px 10px;border-radius:20px;border:1px solid rgba(201,168,76,0.3);background:rgba(201,168,76,0.06);color:var(--accent-gold-lt);margin-right:8px;font-size:11px}
+.project-tags{margin-top:12px;display:flex;flex-wrap:wrap;gap:8px 10px}
+.tag{display:inline-block;padding:6px 12px;border-radius:20px;border:1px solid rgba(201,168,76,0.3);background:rgba(201,168,76,0.06);color:var(--accent-gold-lt);margin:0;font-size:11px}
 
 /* Footer */
 .footer{background:#0d0d18;padding:48px 0;color:var(--text-secondary);text-align:center}
